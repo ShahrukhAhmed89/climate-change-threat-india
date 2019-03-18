@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href='//fonts.googleapis.com/css?family=Bree+Serif|Roboto+Slab' rel='stylesheet' type='text/css'>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet"  href="interactive.css">
+	
+
+</head>
+<body>
+    <h1 style="text-align:center;">The Threat of Climate Change in India</h1>
+    <script src="//d3js.org/d3.v3.js" charset="utf-8"></script>
+    <script src="//d3js.org/topojson.v1.min.js"></script>
+    <div id="firstTool" style="opacity:0;"></div>
+    <div id="secTool" style="opacity:0;"></div>
+    <div class='preface col-md-12' id='storyhead'>
+        <p>"<i>The future of India lies in its villages</i>", a quote attributed to Mahatma Gandhi. Gandhi wrote and spoke extensively about the role of villages in India's future development. But close to three quarters of a century later, India has taken a path very different from Gandhi's vision;<b> a conventional well defined move towards prosperity - rapid urbanisation of cities</b>.</p>
+    </div>
+    <div class='preface col-md-12' >
+        <div class='col-md-7' >
+            <div class='svg-container' id='map1'>
+            <div style='padding-bottom:3%; display:inline;' id="slider">
+                <button type="button" class="button" id="start">start</button>
+                <input type='range' min='1995' max='2025' step='10' value='1995' id='rangeSlider' /> 
+                <button type="button" class="button" id="stop">stop</button>
+            </div>
+                
+            </div>
+
+        </div>
+        
+
+
+        <div class='para col-md-5' id='story1' >
+        
+            <p><i>(click start or drag slider to play animation  and hover over bubbles for city wise population information, source: UN )</i></p>
+
+            <p>Cities are the drivers of economic growth and development. For a country to have a sustainable economic growth it needs its cities to contribute. <b>In 2011, the contribution of Indian cities to the national GDP stood at 58% and is expected to grow to <a href="http://www.business-standard.com/article/economy-policy/-cities-to-contribute-70-to-gdp-by-2030-111110300048_1.html" target="_blank">70% by 2030</a> </b>. In this time the cities in India themselves will keep growing, absorbing the rural population through job opportunities and better standards of living. For Businesses, the concentration of the national economy into cities helps them with skilled labour demands, supplier choices and infrastructure support.<b> Concentration of cities also helps the government provide better services like drinking water, electricity, sanitation, healthcare and infrastructure in a cost effective manner</b>.</p>
+
+        </div>
+        
+    </div>
+
+
+
+                
+    <div class='preface col-md-12'>
+        <div class='plot col-md-7'>
+                <img class='img-responsive' src="india_urbanisation.png"
+                alt="Global Municipal Expenditure, India, Chart , Data">
+        </div>
+        <div class='para col-md-5' id='story2' >
+            <p>But, there can be serious problems as cities continue to grow into sizes and scale that makes them unmanageable to govern and operate. This can be further more problematic if urbanisation is not planned and designed effectively. <b>Over-crowded cities are a strain on governance and municipal funding</b>; a lack of which often results in issues like pollution, shortages in electricity and water supply, traffic congestion, bad healthcare, safety concerns and crime. <b><a href="http://wcr.unhabitat.org/main-report/" target="_blank">According to the UN, </a>India has the lowest municipal expenditure as a percentage of GDP when compared to some of the biggest and upcoming economies in the world</b>. India's urbanisation has made it a global superpower, but it faces a global threat in climate change that has the power to undo it all.</p>
+        </div>
+        
+    </div>
+
+    <div class='preface col-md-12'>
+        <div class='col-md-7' >
+            <div class='svg-container' id='map2'></div>
+        </div>
+        <div class='para col-md-5' id='story3' >
+            <p><i>(click on the bubbles to visualise issues faced by cities, source:IRADe)</i></p>
+
+            <p><b>Of all the threats to the global economy in the future, Climate Change is the greatest danger we are going to face</b>. As India rapidly urbanises, green house gases and carbon emissions increase exponentially; there is rampant deforestation to supply for urban necessities or to make way for mining and construction of large factories. There is also soil and water pollution because of solid waste and sewage dumping into the rivers and oceans.<b> <a href="http://earthobservatory.nasa.gov/blogs/earthmatters/2016/09/12/heres-how-the-warmest-august-in-136-years-looks-in-chart-form/" target="_blank">The rise in the global average temperature</a></b> makes the weather patterns unpredictable and the climate extreme. According to a recent report by Germanwatch(Global Climate Risk Index),<b> India is one of the countries most at risk from climate change</b>, where the warming of an ocean current half-way around the world can dictate a good/bad monsoon. Considering the challenges faced by municipalities over urbanisation, climate change poses a risk that requires large scale mobilisation of resources and contingencies to reduce the harm. <b>All of India's major cities face climate related threats; cyclones, heat waves, flooding, heavy rainfall and drought(see <a href="http://www.indiaspend.com/cover-story/why-there-is-no-option-to-sharing-cauvery-water-53582" target="_blank">Kavery issue</a>) can bring down the economy</b>.</p>
+        </div>
+        
+    </div>
+
+
+    <div class='preface col-md-12' id='storytail'>
+        <p>The debates around climate change, like in the Paris conference, often revolve around countries like USA(major polluters) not doing enough to curb the common climate change risks. But, beyond that, <b>India finds itself in a very precarious and vulnerable position geographically, and as a result the onus of taking a differentiated climate change response and building environmentally sustainable cities should be a primary agenda.</b> In doing so, India not only ensures a smoothly operating and a functional economy, it also ensures a safe lively hood to millions of Indians who will make up the great mega Cities of tomorrow.</p>
+    </div>
+</body>
+<script src="interactive.js"></script>
+</html>
+
+
+

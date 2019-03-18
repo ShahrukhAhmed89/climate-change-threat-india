@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+	.button1{background-color: #555555;}
+
+
+	
+	.Text{
+		font-size:25px;
+		fill:black;
+		font-family: 'Merriweather', serif;  
+
+	}
+
+	.preface{
+		padding-top: 5%;
+		text-align: justify;
+		padding-right: 3%;
+
+	}
+	
+	#display_text{
+		font-size:25px;
+		fill:hotpink;
+		font-family: 'Merriweather', serif;  
+	}
+	#story1{padding-top: 8%	}
+	#story2{padding-top: 5%	}
+	#story3{padding-top: 5%	}
+	#storyhead{ padding-left: 8%; padding-top: 5%	 }
+	#storytail{ padding-left: 5%; padding-bottom: 8%	 }
+	path{
+		fill:#10202f;
+	}
+
+
+	circle{
+	
+		stroke: white;
+		fill:hotpink;
+		opacity: 0.7;
+
+	}
+
+	input[type=range]{
+    -webkit-appearance: none;
+}
+
+	input[type=range] {
+		    display: inline-block;
+		    width: 100%;
+}
+	input[type=range]::-webkit-slider-runnable-track {
+	    width: 300px;
+	    height: 5px;
+	    background: black;
+	    border: none;
+	    border-radius: 3px;
+	}
+
+	input[type=range]::-webkit-slider-thumb {
+	    -webkit-appearance: none;
+	    border: none;
+	    height: 16px;
+	    width: 16px;
+	    border-radius: 50%;
+	    background: hotpink;
+	    margin-top: -4px;
+	}
+
+	input[type=range]:focus {
+	    outline: none;
+	}
+
+	input[type=range]:focus::-webkit-slider-runnable-track {
+	    background: black;
+	}
+	input[type=range]{
+	    /* fix for FF unable to apply focus style bug  */
+	    border: 1px solid white; 
+
+	    /*required for proper track sizing in FF*/
+	    width: 300px;
+	}
+
+	input[type=range]::-moz-range-track {
+	    width: 300px;
+	    height: 5px;
+	    background: hotpink;
+	    border: none;
+	    border-radius: 3px;
+	}
+
+	input[type=range]::-moz-range-thumb {
+	    border: none;
+	    height: 16px;
+	    width: 16px;
+	    border-radius: 50%;
+	    background: hotpink;
+	}
+
+	/*hide the outline behind the border*/
+	input[type=range]:-moz-focusring{
+	    outline: 1px solid white;
+	    outline-offset: -1px;
+	}
+
+	input[type=range]:focus::-moz-range-track {
+	    background: hotpink;
+	}
+
+	div#firstTool{ 
+    position: absolute;     
+    width: 200px;          
+    height: 100px;         
+    padding: 2%;       
+    background: white; 
+    border: 1px solid black;
+    border-radius: 8px;     
+    pointer-events: none; 
+    background-color:white;
+    z-index:1;
+   
+	} 
+
+	div#firstTool hr{
+		margin: 1% 0% 1% 0%;
+		border-top-color:black;
+	}
+
+
+	div#firstTool p{
+	 	font-size: 15px;
+    	font-family: 'Merriweather', serif;
+    	text-align: center;  
+    	margin-bottom: 0;
+	}
+	
+	div#secTool{ 
+    position: absolute;     
+	padding: 1% 2% 1% 2% ;       
+    background: white; 
+    border: 1px solid black;
+    border-radius: 8px;     
+    pointer-events: none; 
+    background-color:white;
+   	z-index:1;
+	} 
+
+	div#secTool hr{
+		margin: 1% 0% 1% 0%;
+	}
+
+	div#secTool p{
+	 	font-size: 15px;
+    	font-family: 'Merriweather', serif;
+    	text-align: center;  
+    	margin-bottom: 0;
+	}
+
+
+
+
+	#slider{
+		padding-left: 18%;
+	} 
+	#chart{
+		text-align: center;
+		text-align: center;
+		font-family: 'Pacifico', sans-serif;
+		font-size: 5px;
+	
+	}
+
+	.Arcs{
+		fill: white;
+		stroke: #AAAAAA;
+	}
+
+	.Text{
+		color:#222;
+		font-size: 15px;
+	}
+
+	.show{
+		stroke: white;
+	}
+	
+	#Flooding{fill:#7da3be;}
+	#Cyclones{fill:#3a417a;}
+	#Water{fill:#abb2e1;}
+	#Sewerage{fill:#585102;}
+	#Drinage{fill:#23211d;}
+	#Solid{fill:#e18b25;}
+	#Drought{fill:#bca895;}
+	#Landslides{fill:#ecb386;}
+	#Heat{fill:#a94047;}
+
+
+@media  (max-width: 768px) {
+		input[type=range]{
+	   
+	    width: 50%;
+	}
+	#slider{
+		padding-left:5%;
+	}
+	#story1{padding-left: 10%;}
+	#story2{padding-left: 10%;}
+	#story3{padding-left: 10%;}
+	#storyhead{ padding-left: 10%;}
+	#storytail{padding-left: 10%; }
+}
